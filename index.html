@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>小米商城首页</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/lunbo.js" ></script>
+		<script type="text/javascript" src="js/miDetail.js" ></script>
+		<script type="text/javascript" src="js/movingCreate.js" ></script>
+		<script type="text/javascript" src="js/headerTop.js" ></script>
+		<script type="text/javascript" src="js/index_quickShop.js" ></script>
+		<style></style>
+	</head>
+	<body>
+		<header></header>
+		<!--侧边栏-->
+		<div id="rightSide_bar">
+			<ul id="rightSide_ul">
+				<li class="rightSide_li"><i class="iconfont">&#xe72f;</i><span>手机App</span></li>
+				<li class="rightSide_li"><i class="iconfont">&#xe643;</i><span>个人中心</span></li>
+				<li class="rightSide_li"><i class="iconfont">&#xe6ab;</i><span>联系客服</span></li>
+				<li class="rightSide_li" id="gotoTop"><i class="iconfont">&#xe7ed;</i><span>回顶部</span></li>
+			</ul>
+		</div>
+		
+		<!--白色背景的盒子-->
+		<div id="whiteBox">
+			<!--轮播-->
+			<section id="lunbo" class="c">
+				
+			<div id="before"><a><</a></div>
+			<div id="next"><a>></a></div>
+			<ul id="picBox">
+				<li class="bigPic hide"><img src="img/lunbo_1.jpg"/></li>
+				<li class="bigPic hide"><img src="img/lunbo_2.jpg"/></li>
+				<li class="bigPic hide"><img src="img/lunbo_3.jpg"/></li>
+				<li class="bigPic hide"><img src="img/lunbo_4.jpg"/></li>
+				<li class="bigPic hide"><img src="img/lunbo_5.jpg"/></li>
+			</ul>
+			
+			<ul id="btnBox" class="r">
+				<span class="picBtn changec"></span>
+				<span class="picBtn nchange"></span>
+				<span class="picBtn nchange"></span>
+				<span class="picBtn nchange"></span>
+				<span class="picBtn nchange"></span>
+			</ul>
+			
+			<!--一级菜单-->
+			<div id="menu" class="l">
+				<ul id="menu_ul">
+					<li class="li_link">
+						<a class="li_link_a">手机&nbsp;电话卡
+							<i class="iconfont">&#xe6b6;</i>
+						</a>	
+						
+					<div class="sec_menu">
+						<ul class="sec_menu_link l">
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/max3-80-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mix3-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mimobile.jpg" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/max3-80-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mix3-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mimobile.jpg" />小米MIX 3</a></li>
+		
+						</ul>
+						<ul class="sec_menu_link l">
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/max3-80-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mix3-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mimobile.jpg" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/max3-80-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mix3-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mimobile.jpg" />小米MIX 3</a></li>
+						</ul>
+						<ul class="sec_menu_link l">
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/max3-80-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mix3-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mimobile.jpg" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/max3-80-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mix3-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mimobile.jpg" />小米MIX 3</a></li>
+						</ul>
+						<ul class="sec_menu_link l">
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/max3-80-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mix3-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mimobile.jpg" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/max3-80-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mix3-80.png" />小米MIX 3</a></li>
+							<li class="sec_menu_li"><a class="sec_li_a"><img src="img/mimobile.jpg" />小米MIX 3</a></li>
+						</ul>
+					</div>
+
+					</li>
+					<li class="li_link"><a class="li_link_a">电视&nbsp;盒子<i class="iconfont">&#xe6b6;</i></a></li>
+					<li class="li_link"><a class="li_link_a">笔记本&nbsp;平板<i class="iconfont">&#xe6b6;</i></a></li>
+					<li class="li_link"><a class="li_link_a">家电&nbsp;插线板<i class="iconfont">&#xe6b6;</i></a></li>
+					<li class="li_link"><a class="li_link_a">出行&nbsp;穿戴<i class="iconfont">&#xe6b6;</i></a></li>
+					<li class="li_link"><a class="li_link_a">智能&nbsp;路由器<i class="iconfont">&#xe6b6;</i></a></li>
+					<li class="li_link"><a class="li_link_a">电源&nbsp;配件<i class="iconfont">&#xe6b6;</i></a></li>
+					<li class="li_link"><a class="li_link_a">健康&nbsp;儿童<i class="iconfont">&#xe6b6;</i></a></li>
+					<li class="li_link"><a class="li_link_a">耳机&nbsp;音箱<i class="iconfont">&#xe6b6;</i></a></li>
+					<li class="li_link"><a class="li_link_a">生活&nbsp;箱包<i class="iconfont">&#xe6b6;</i></a></li>
+				</ul>
+			</div>
+		</section>
+		
+		<!--轮播底下的盒子-->
+		<section id="lunbo_down" class="c">
+			<div id="lunbo_downBox01" class="l">
+				<ul id="downBox01_ul">
+					<li class="downBox01_list l"><a><i class="iconfont">&#xe608;</i>选购手机</a></li>
+					<li class="downBox01_list l"><a><i class="iconfont">&#xe611;</i>企业团购</a></li>
+					<li class="downBox01_list l"><a><i class="iconfont">&#xe61f;</i>F码通道</a></li>
+					<li class="downBox01_list l"><a><i class="iconfont">&#xe614;</i>米粉卡</a></li>
+					<li class="downBox01_list l"><a><i class="iconfont">&#xe60f;</i>以旧换新</a></li>
+					<li class="downBox01_list l"><a><i class="iconfont">&#xe732;</i>话费充值</a></li>
+				</ul>
+			</div>
+			<div class="lunbo_downBox l" style="background-color: blue;">
+				<a href="detail.html"><img src="img/lunbo_down1.jpg"/></a>
+			</div>
+			<div class="lunbo_downBox l" style="background-color: purple;">
+				<a><img src="img/lunbo_down2.jpg"/></a>
+			</div>
+			<div class="lunbo_downBox r" style="background-color: yellow;">
+				<a><img src="img/lunbo_down3.jpg" /></a>
+			</div>
+		</section>
+
+		<!--小米闪购-->
+		<section id="quickShop" class="c">
+			<div id="quickShop_title">
+				小米闪购
+				<div id="quickShop_icon">
+					<i class="iconfont l" id="beforeBtn">&#xe505;</i>
+					<i class="iconfont r" id="nextBtn">&#xe6b6;</i>
+				</div>
+			</div>
+			
+			<div id="quickShop_box" class="c">
+				<div class="quickShop_fBox l red">
+						<span style="color: red ; font-size: 22px; margin-top: 50px; display: block;">10:00场</span>
+						<a class="quickShop_fBox_a" href="seckill.html">
+							<img src="img/flash.png" style="width: 34px; height: 53px;" />
+						<span style="color: gray; font-size: 15px;margin-top: 50px;">距离结束还有</span>
+						</a>
+						<div id="timeOut">
+							<!--<div class="timeout_box l">00</div><div class="l maohao">:</div>-->
+							<div class="timeout_box l">58</div><div class="l maohao">:</div>
+							<div class="timeout_box l">56</div>
+						</div>
+					</div>
+				<div id="quickShop_sBox" class="l">
+					<ul id="quickShop_ul"></ul>
+				</div>
+			</div>
+		</section>
+		<!--第一张黑色横图 白色盒子底部-->
+		<section class="H_itemBox c"><img src="img/heng_01.jpg" class="c"/></section>
+		</div>
+		
+			<!--商品陈列-->
+		<section id="greyBox">
+			
+			<div id="movingCreate" class="c">
+				<!--手机-->
+				<div class="createBigBox c" >
+					<section class="createBox_title">
+					<span>手机</span>
+					<a class="more r">查看全部&nbsp;&nbsp;<i class="iconfont">&#xe630;</i></a>
+					</section>
+					<section class="createBox" class="c">
+					<div id="longPic" class="l"><img src="img/indexDetail_01.jpg"/></div>
+					<ul id="detailBox_ul" class="r"></ul>	
+					<img src="img/heng_02.jpg" class="c detailBox_Imge"/>
+					</section>
+				</div>
+				<!--家电-->
+				<div class="createBigBox c">
+					<section class="createBox_title">
+					<span >家电</span>
+					<ul class="detailTitle_ul r">
+						<li class="detailTitle_li l"><a>热门</a></li>
+						<li class="detailTitle_li l"><a>电视影音</a></li>
+						<li class="detailTitle_li l"><a>电脑</a></li>
+						<li class="detailTitle_li l"><a>家居</a></li>
+					</ul>
+					</section>
+					<section class="createBox" class="c">	
+						<div class="l_sidePic l">
+							<img src="img/homeApplication_01.jpg"/>
+							<img src="img/homeApplication_02.jpg"/>
+						</div>
+						<ul id="item01_ul" class="item_ul r"></ul>
+						<img src="img/heng_03.jpg" class="c detailBox_Imge"/>
+					</section>
+				</div>
+				<!--智能-->
+				<div class="createBigBox c">
+					<section class="createBox_title">
+					<span >智能</span>
+					<ul class="detailTitle_ul r">
+						<li class="detailTitle_li l"><a>热门</a></li>
+						<li class="detailTitle_li l"><a>出行</a></li>
+						<li class="detailTitle_li l"><a>健康</a></li>
+						<li class="detailTitle_li l"><a>酷玩</a></li>
+					</ul>
+					</section>
+					<section class="createBox" class="c">	
+						<div class="l_sidePic l">
+							<img src="img/AI.jpg"/>
+							<img src="img/homeApplication_02.jpg"/>
+						</div>
+						<ul id="item02_ul" class="item_ul r"></ul>
+						<img src="img/heng_04.jpg" class="c detailBox_Imge"/>
+					</section>
+				</div>
+				<!--搭配-->
+				<div class="createBigBox c">
+					<section class="createBox_title">
+					<span >搭配</span>
+					<ul class="detailTitle_ul r">
+						<li class="detailTitle_li l"><a>热门</a></li>
+						<li class="detailTitle_li l"><a>出行</a></li>
+						<li class="detailTitle_li l"><a>健康</a></li>
+						<li class="detailTitle_li l"><a>酷玩</a></li>
+					</ul>
+					</section>
+					<section class="createBox" class="c">	
+						<div class="l_sidePic l">
+							<img src="img/collocation.jpg" />
+							<img src="img/homeApplication_02.jpg"/>
+						</div>
+						<ul id="item03_ul" class="item_ul r"></ul>
+						<img src="img/heng_06.jpg" class="c detailBox_Imge"/>
+					</section>
+				</div>
+				<!--配件-->
+				<div class="createBigBox c">
+					<section class="createBox_title">
+					<span >配件</span>
+					<ul class="detailTitle_ul r">
+						<li class="detailTitle_li l"><a>热门</a></li>
+						<li class="detailTitle_li l"><a>出行</a></li>
+						<li class="detailTitle_li l"><a>健康</a></li>
+						<li class="detailTitle_li l"><a>酷玩</a></li>
+					</ul>
+					</section>
+					<section class="createBox" class="c">	
+						<div class="l_sidePic l">
+							<img src="img/collocation_02.jpg" />
+							<img src="img/homeApplication_02.jpg"/>
+						</div>
+						<ul id="item04_ul" class="item_ul r"></ul>
+						<img src="img/heng_05.jpg" class="c detailBox_Imge"/>
+					</section>
+				</div>
+				<!--周边-->
+				<div class="createBigBox c">
+					<section class="createBox_title">
+					<span >周边</span>
+					<ul class="detailTitle_ul r">
+						<li class="detailTitle_li l"><a>热门</a></li>
+						<li class="detailTitle_li l"><a>出行</a></li>
+						<li class="detailTitle_li l"><a>健康</a></li>
+						<li class="detailTitle_li l"><a>酷玩</a></li>
+					</ul>
+					</section>
+					<section class="createBox" class="c">	
+						<div class="l_sidePic l">
+							<img src="img/around.jpg" />
+							<img src="img/homeApplication_02.jpg"/>
+						</div>
+						<ul id="item05_ul" class="item_ul r"></ul>
+						<img src="img/heng_07.jpg" class="c detailBox_Imge"/>
+					</section>
+				</div>
+				<!--为你推荐-->
+				<section id="quickShop" class="c">
+					<div id="quickShop_title">
+					为你推荐
+					</div>
+				<div id="quickShop_box" class="c">
+					<ul id="introduce_ul"></ul>
+				</div>
+				</section>
+				<!--热评产品-->
+				<section id="quickShop" class="c">
+					<div id="quickShop_title">
+					热评产品
+					</div>
+				<div id="quickShop_box" class="c">
+					<ul id="hotComment_ul"></ul>
+				</div>
+				</section>
+				<!--内容-->
+				<section id="quickShop" class="c">
+				<div id="quickShop_title">
+					内容
+				</div>
+				<div id="quickShop_box" class="c">
+				<ul id="content_ul"></ul>
+				</div>
+				</section>
+				<!--视频-->
+				<section id="quickShop" class="c">
+				<div id="quickShop_title">
+					视频
+					<a class="more r">查看全部&nbsp;&nbsp;<i class="iconfont">&#xe630;</i></a>
+				</div>
+				<div id="video_box" class="c">
+				<ul id="video_ul"></ul>
+				</div>
+				</section>
+			
+			</div>
+			
+			
+			
+		</section>
+			
+	
+		<footer></footer>
+		<script>
+			$('header').load('commonHtml/header.html');
+			$('footer').load('commonHtml/footer.html');
+		</script>
+	</body>
+</html>

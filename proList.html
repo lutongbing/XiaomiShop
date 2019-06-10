@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表——小米电视4C</title>
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/proList.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/productData.js" ></script>
+		<script type="text/javascript" src="js/productList.js" ></script>
+	</head>
+	<body>
+		<header></header>
+		<div id="container" class="t">
+			<section id="smallNav" class="t">
+				<!--小的导航栏-->
+				<div id="smallNav_c" class="c">
+					<a>首页</a><span class="smallNav_c_span">></span>
+					<a>全部结果</a><span class="smallNav_c_span">></span>
+					<a>小米电视4c</a>
+				</div>
+				<!--分类导航栏-->
+				<nav id="apart" class="t">
+					<div id="apart_c" class="c">
+					<a class="apart_01 l">分类：</a>
+					<a class="apart_02 l">全部</a>
+					<a class="apart_03 l">配件优惠套餐</a>
+					<a>小米电视</a>
+					</div>
+				</nav>
+				<!--商品列表盒的提示-->
+				<section id="orderList" class="t">
+					<div id="orderList_c" class="c">
+						<ul class="orderList_ul l">
+						<li class="orderList_li l"><a>推荐</a><span class="orderList_li_span">|</span></li>
+						<li class="orderList_li l"><a>新品</a><span class="orderList_li_span">|</span></li>
+						<li class="orderList_li l"><a>价格↑</a><span class="orderList_li_span">|</span></li>
+						<li class="orderList_li l"><a>评论最多</a></li>
+						</ul>
+						<ul class="orderList_ul r">
+							<li class="orderList_li l"><span class="orderList_li_checkBox"/></span><span>查看评价</span></li>
+							<li class="orderList_li l"><span class="orderList_li_checkBox"/></span><span>仅显示特惠商品</span></li>
+							<li class="orderList_li l"><span class="orderList_li_checkBox"/></span><span>仅显示有货商品</span></li>
+						</ul>
+					</div>
+				</section>
+				<!--商品列表-->
+				<ul id="productList_ul" class="c">
+					<!--<li class="productList_li l">
+						<img src="detail_img/proList_01.png" />
+						<p class="productList_p">小米电视4C 55英寸</p>
+						<span class="productList_price">2199元</span><del>2599元</del>
+						<img src="detail_img/pro_01_34x34.png" id="sPic"/>
+						<div id="bottom_p">9折促销</div>
+					</li>-->
+				</ul>
+				<!--猜你喜欢-->
+				<h2 id="hobbyTitle" class="c"><span id="hobbyTitle_span">猜你喜欢</span></h2>
+				<ul id="likePro_ul" class="c">
+					<!--<li class="likePro_li l">
+						<img src="detail_img/hobby_01.jpg" />
+						<p class="likePro_p">小米USB充电器（4口）</p>
+						<span class="likePro_price">59元</span>
+						<p class="likePro_p2">1.7万人好评</p>
+					</li>-->
+				</ul>
+			</section>
+		</div>
+		<footer></footer>
+		
+		
+		
+		<script>
+			$('header').load('commonHtml/header.html');
+			$('footer').load('commonHtml/footer.html');
+		</script>
+	</body>
+</html>

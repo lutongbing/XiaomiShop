@@ -1,0 +1,163 @@
+#container{
+	height:1700px;
+	background-color: #f5f5f5;
+	
+}
+#smallNav{
+	height: 40px;
+}
+#smallNav_c{
+	height: 40px;
+	font-size: 14px;
+	color: #757575;;
+	line-height: 40px;
+	/*background-color: brown;*/
+}
+.smallNav_c_span{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#apart{
+	height: 81px;
+	background-color: white;
+}
+#apart_c{
+	height: 81px;
+	font-size: 16px;
+	line-height: 81px;
+	/*background-color: lightgoldenrodyellow;*/
+}
+.apart_01{
+	display: block;
+    color: #b0b0b0;
+}
+.apart_02{
+	width: 172px;
+	color: #ff6700;
+	padding-left: 30px;
+}
+.apart_03{
+	width: 172px;	
+}
+#orderList{
+	height: 20px;
+    margin: 20px 0;
+}
+#orderList_c{
+	height: 20px;
+	font-size: 15px;
+	line-height: 20px;
+    /*background-color: burlywood;*/
+}
+.orderList_ul{
+	display: block;
+	height: 20px;
+
+}
+.orderList_li_span{
+	padding: 0 30px;
+	color: grey;
+}
+.orderList_li{
+	display: block;
+	height: 20px;
+}
+.orderList_li_checkBox{
+	display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+	margin-left: 10px;
+}
+#productList_ul{
+	height: 888px;
+	margin-bottom: 120px;
+}
+.productList_li{
+	position: relative;
+    width: 280px;
+    height: 360px;
+    padding-top: 47px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+    /*border: 1px solid black;*/
+}
+.productList_li:hover{
+	box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.productList_price{
+	margin: 0 0 15px;
+	color: #ff6700;
+}
+.productList_p{
+	height: 40px;
+	line-height: 40px;
+}
+.productList_price{
+	margin-right: 10px;
+}
+#sPic{
+	display: block;
+	width: 34px;
+	height: 34px;
+	margin: 20px auto;
+}
+.productList_li del{
+	color: lightgrey;
+}
+#bottom_p{
+	position: absolute;
+	bottom: 0;
+	width: 280px;
+	height: 20px;
+	background-color: #e53935;
+	color: white;
+}
+#hobbyTitle{
+	/*background-color: red;*/
+	position: relative;
+	height: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #757575;
+    border-top: 1px solid #e0e0e0;
+}
+#hobbyTitle_span{
+	position: absolute;
+    top: -20px;
+    left: 372px;
+    height: 40px;
+    width: 482px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    background-color: #f5f5f5;
+}
+#likePro_ul{
+	height: 278px;
+	/*background-color: gainsboro;*/
+}
+.likePro_li{
+	width: 220px;
+	height: 278px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: white;
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+.likePro_li img{
+	width: 140px;
+	height: 140px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.likePro_price{
+	color:#ff6700;
+	line-height: 3;
+}

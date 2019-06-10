@@ -1,0 +1,131 @@
+#bgBox{
+	height:700px;
+	background-color: #FAFAFA;
+}
+#registerBox{
+	width: 854px;
+	height:600px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background-color: white;
+}
+#registerBox img{
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	}
+#registerBox_h4{
+	margin:30px auto;
+	font-size: 27px;
+	text-align: center;	
+}
+#registerBox_t{
+	width: 786px;
+	height: 430px;
+	margin: 0 auto;
+	/*background-color:rosybrown ;*/
+}
+#registerBox_cen{
+	width: 332px;
+	height: 306px;
+	padding: 30px 0;
+	margin: 0 auto;  
+
+}
+.cenBox{
+	width: 332px;
+	height: 40px;
+	margin: 10px 0;
+}
+.cenBox_h4{
+	font-size: 16px;
+	font-weight: 300;
+}
+.cenBox_Input{
+	display: inline-block;
+	width: 265px;
+	 height: 20px;
+    line-height: 20px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #FAFAFA;
+    cursor: pointer;
+    position: relative;
+}
+#cenBox_i{
+	width: 42px;
+	height: 40px;
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: gainsboro;
+    border: 1px solid #FAFAFA;
+	
+}
+.phoneBox{
+	width: 30px;
+	height: 20px;
+	padding:  10px 6px;
+	color: grey;
+    border: 1px solid #FAFAFA;
+}
+#phone_i{
+	width: 10px;
+	height: 10px;
+	font-size: 14px;
+}
+.cenBox_text{
+	margin: 10px auto;
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+#text_error{
+	display: block;
+	height: 20px;
+	color: white;
+	font-size: 14px;
+	/*background-color: red;*/
+}
+#registerBtn{
+	display: block;
+	width: 330px;
+	height: 42px;
+	background-color: #ff6700;
+    margin-top: 30px;
+    border: 1px solid rgba(186,186,186,0.3);
+    color: #fff;
+    font-size: 14px;
+}
+#registerBtn_down_p{
+	font-size: 16px;
+	color: grey;
+	text-align: center;
+	margin-top: 15px;
+}
+#registerBtn_down_p i{
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+}
+#registerDown_p1,#registerDown_p2{
+	text-align: center;
+	font-size: 14px;
+	
+} 
+#registerDown_p1 a{
+	color: grey;
+}
+#registerDown_p1 a:nth-child(1){
+	color: black;
+	}
+#registerDown_p1 span{
+	margin: 0 20px;
+}
+#registerDown_p2{
+	color: grey;
+	margin-top: 20px;
+}
+

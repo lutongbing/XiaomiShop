@@ -1,0 +1,20 @@
+$(function(){
+	//导航栏
+        $(window).scroll(function(){
+            if($(window).scrollTop()>100){
+                $("#navBox").css({"position":"fixed","top":0,"z-index":30});
+            }else{
+                $("#navBox").css({"position":"static"});	
+            }
+        })
+    //轮播框
+        $(window).scroll(function(){
+            if($(window).scrollTop()>200&&$(window).scrollTop()<1600){
+            	$("#magnifier").css({"position":"fixed","top":0,"z-index":5});
+            }else if($(window).scrollTop()>1600){
+            	$("#magnifier").css({"position":"static"});
+            }else{
+            	$("#magnifier").css({"position":"static"});
+            }	
+        })    	
+ })

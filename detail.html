@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情——小米8 青春版立即购买</title>
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<link rel="stylesheet" href="css/detail.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/detail.js" ></script>
+		<script type="text/javascript" src="js/magnifier.js" ></script>
+		
+	</head>
+	<body>
+		<header></header>
+		<!--固定导航栏-->
+		<nav id="navBox" class="t">
+			<section id="navBox_c" class="c">
+				<h2 id="navBox_title" class="l">小米8 青春版</h2>
+				<div id="navBox_right" class="r">
+					<a>概述 </a><span>|</span>
+					<a>图集 </a><span>|</span>
+					<a>参数 </a><span>|</span>
+					<a>F码通道</a><span>|</span>
+					<a>用户评价 </a>
+				</div>
+			</section>
+		</nav>
+		
+		<section id="bigBox" class="t">
+			<div id="bigBox_c" class="c">
+			<!--放大镜-->
+				<div id="magnifier">
+					<section id="imageBox" class="l">
+					<img src="detail_img/detail_01.jpg" id="s"/>
+					<div id="square"></div>
+					<div id="bPic" class="l">
+						<img src="detail_img/detail_01.jpg" id="b"/>
+					</div>
+					</section>
+				</div>
+	
+				
+				
+		<!--文本框-->
+		<section id="textBox" class="r">
+					<!--商品名-->
+					<h1 id="name_h1">小米8 青春版</h1>
+					<!--提示-->
+					<p id="pro_p">
+						<font color="#FF4500">「6GB+64GB 全色系1499元」</font>
+						潮流镜面渐变色 / 2400万自拍旗舰 / 7.5mm超薄机身 / 6.26"小刘海全面屏 / AI裸妆美颜 / 骁龙660AIE处理器
+					</p>
+					<p id="saleCompany">小米自营</p>
+					<div id="textBox_price"><span style="color: #FF4500;font-size: 18px;margin-right: 15px;">1499元</span><del>1699元</del></div>
+					<!--赠品-->
+					<div id="textBox_send">
+						<span id="send_span1">赠品</span>
+						<span id="send_span2">赠米粉卡，最高含100元话费</span>
+					</div>
+					<!--地址-->
+					<div id="user_default_address">
+						<i class="iconfont">&#xe646;</i>
+						<span class="address_item">广东</span>
+						<span class="address_item">湛江市</span>
+						<span class="address_item">赤坎区</span>
+						<span class="address_item">寸金街道</span>
+						<span class="address_item" id="change_address">修改</span>
+						<p id="address_p">有现货</p>
+					</div>
+					<!--选择版本-->
+					<div class="chooseBox">
+						<h2 class="step_title">选择版本</h2>
+						<ul class="chooseBox_ul">
+							<li class="chooseBox_li l"><a>6GB+64GB 全网通 </a><span class="r">1499元</span></li>
+							<li class="chooseBox_li l"><a>4GB+64GB 全网通 </a><span class="r">1399元</span></li>
+							<li class="chooseBox_li l"><a>6GB+128GB 全网通 </a><span class="r">1999元</span></li>
+							<li class="chooseBox_li l"><a>4GB+128GB 全网通 </a><span class="r">1799元</span></li>
+						</ul>
+					</div>
+					<!--选择颜色-->
+					<div class="chooseBox">
+						<h2 class="step_title">选择颜色</h2>
+						<ul class="chooseBox_ul">
+							<li class="chooseBox_li_2 l"><a>梦幻蓝</a></li>
+							<li class="chooseBox_li_2 l"><a>暮光金</a></li>
+							<li class="chooseBox_li_2 l"><a>深空灰</a></li>
+							
+						</ul>
+					</div>
+					<!--意外保护-->
+					<div class="pro_title">选择小米提供的意外保护<span class="r s_title">了解意外保护></span></div>
+					<ul>
+						<li class="proBox_li">
+							<div class="iconBox l" >
+							<i class="iconfont l" id="iconBox_01">&#xe607;</i>
+							<i class="iconfont r" id="iconBox_02" style="color: blue;">&#xe65f;</i>
+							</div>
+							<div class="protextBox l">
+								<span class="protextBox_span">全年意外保障服务</span>
+								<span class="protextBox_price r">99元</span>
+								<p class="protextBox_p">手机意外摔落/进水/碾压等损坏</p>
+							</div>
+						</li>
+						<li class="proBox_li">
+							<div class="iconBox l" >
+							<i class="iconfont l" id="iconBox_01">&#xe607;</i>
+							<i class="iconfont r" id="iconBox_02" style="color: blue;">&#xe65f;</i>
+							</div>
+							<div class="protextBox l">
+								<span class="protextBox_span">全年碎屏保障服务</span>
+								<span class="protextBox_price r">59元</span>
+								<p class="protextBox_p">手机意外碎屏</p>
+							</div>
+						</li>
+					</ul>
+					<!--延长保修-->
+					<div class="pro_title">选择小米提供的延长保修<span class="r s_title">了解延长保修></span></div>
+					<ul>
+						<li class="proBox_li">
+							<div class="iconBox l" >
+							<i class="iconfont l" id="iconBox_01">&#xe607;</i>
+							<i class="iconfont r" id="iconBox_02" style="color: blue;">&#xe65f;</i>
+							</div>
+							<div class="protextBox l">
+								<span class="protextBox_span">延长保修服务</span>
+								<span class="protextBox_price r">29元</span>
+								<p class="protextBox_p">厂保延一年，性能故障免费维修</p>
+							</div>
+						</li>
+					</ul>
+					<!--总价-->
+					<div id="pro_list">
+						<p id="proList_p">小米8 青春版 6GB+64GB 梦幻蓝 <a class="r"><span>1499元</span><del>1699元</del></a></p>
+						<p id="wholePrice">总计：1499元</p>
+					</div>
+					<!--购买按钮-->
+					<ul id="buyBtn_ul">
+						<li id="buyBtn_li_01" class="l"><a>加入购物车</a></li>
+						<li id="buyBtn_li_02" class="l"><a><i class="iconfont" id="buyBtn_li_icon">&#xe64f;</i>喜欢</a></li>
+					</ul>
+					<!--服务-->
+					<div id="proPolicy">
+					<a href="" class="proPolicy_a l"><i class="iconfont">&#xe607;</i>小米自营</a>
+					<a href="" class="proPolicy_a l"><i class="iconfont">&#xe607;</i>小米发货</a>
+					<a href="" class="proPolicy_a l"><i class="iconfont">&#xe607;</i>7天无理由退货</a>
+					<a href="" class="proPolicy_a l"><i class="iconfont">&#xe607;</i>运费说明</a>
+					<a href="" class="proPolicy_a l"><i class="iconfont">&#xe607;</i>售后服务政策</a>
+					</div>
+				</section>
+				
+
+			</div>
+		</section>
+		
+	
+		<footer></footer>
+		
+		<script>
+			$('header').load('commonHtml/header.html');
+			$('footer').load('commonHtml/footer.html');
+		</script>
+	</body>
+</html>
